@@ -1,0 +1,33 @@
+body{
+    .quienes-somos{
+        padding-top: 100px;
+        h1{
+            margin: 5vh;
+            text-align: center;
+        }
+        img{
+            max-width: 100%;
+        }
+        .container-nosotros{
+            display: grid;
+            padding: 20px;
+            img{
+                border-radius: 20px;
+            }
+            .fotos-nosotros-dai{
+                display: grid;
+                grid-template-columns: 1fr 1.5fr;
+                grid-template-rows: auto auto;
+                gap: 10px;
+                align-items: center;
+            }
+            .fotos-nosotros-galo{
+                display: grid;
+                grid-template-columns: 1.5fr 1fr;
+                grid-template-rows: auto auto;
+                gap: 10px;
+                align-items: center;
+            }
+        }
+    }    
+}
